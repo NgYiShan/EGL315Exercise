@@ -19,3 +19,8 @@ There are 2 ways to insert codes
 I am at Nanyang Poly 
 Block S 540
 ```
+### Code Line
+'sudo raspi-config'
+
+
+
