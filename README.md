@@ -24,3 +24,29 @@ Block S 540
 
 
 
+## Adding pictures 
+
+This is a picture of an outing with my friends
+
+![Alt text](Imgs/KHouting.jpg)
+
+
+## Block Diagram
+
+```mermaid
+graph TD
+
+A --> B
+```
+
+```mermaid
+graph LR 
+
+A[RaspiBerryPi] --> B[Router]
+B --> C[TV]
+D[Light Sensor] --> A
+A --> D
+E --> A
+A --> E
+
+```
