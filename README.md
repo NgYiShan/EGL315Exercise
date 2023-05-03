@@ -42,13 +42,15 @@ A --> B
 ```mermaid
 graph LR 
 
-A[RaspiBerryPi] --> B[Router]
-B --> C[TV]
-D[Light Sensor] --> A
-A --> D
-E --> A
-A --> E
-
+Laptop1 --> A[NetworkSwitch]
+A --> QL1
+A --> B[MediaServer]
+B --> OtomaProjector
+B --> C[HDMIextenderTx]
+C --> D[HDMIextenderRx]
+D --> EpsonProjector
+A --> Laptop2
+A --> MA3Console
 ```
 
 ##
